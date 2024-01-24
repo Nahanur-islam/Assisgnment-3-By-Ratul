@@ -26,7 +26,7 @@
 </head>
 
 <body class="fonts-manrope ">
-    <header class="mx-auto grid lg:px-20 lg:py-10 ">
+    <header class="container lg:px-20 md:px-10 px-6 mx-auto grid ">
         <nav>
             <div class="navbar bg-base-100 ">
                 <div class="navbar-start">
@@ -59,55 +59,57 @@
                     </ul>
                 </div>
                 <div class="navbar-end gap-4">
-                    <img src="./Images/ratul12.png" alt="">
+                    <div class="hidden lg:flex">
+                        <img src="./Images/ratul12.png " alt="">
+                    </div>
                     <a class="btn text-white bg-red-500">Get Ticket</a>
                 </div>
             </div>
         </nav>
     </header>
-    <main class="px-32">
+    <main class="container lg:px-20 md:px-10 px-6 mx-auto">
         <!------section part  1-->
-        <section class="max-auto grid lg:grid-cols-1 ">
-            <div class="carousel w-full">
-                <div id="slide1" class="carousel-item relative w-full bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(19,19,24,0.50)),url('./Images/ratul.png')] bg-no-repeat bg-cover ">
-                    <!-- <img src="Images/ratul.png" class="w-full h-[65vh] " /> -->
-                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                        <a href="#slide4" class="btn btn-circle">❮</a>
-                        <a href="#slide2" class="btn btn-circle">❯</a>
-                    </div>
-                </div>
-                <div id="slide2" class="carousel-item relative w-full">
-                    <img src="Images/Hocikes2.jpg" class="w-full  h-[65vh] " />
-                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                        <a href="#slide1" class="btn btn-circle">❮</a>
-                        <a href="#slide3" class="btn btn-circle">❯</a>
-                    </div>
-                </div>
-                <div id="slide3" class="carousel-item relative w-full">
-                    <img src="Images/Hocikes3.jpg" class="w-full  h-[65vh] " />
-                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                        <a href="#slide2" class="btn btn-circle">❮</a>
-                        <a href="#slide4" class="btn btn-circle">❯</a>
-                    </div>
-                </div>
-                <div id="slide4" class="carousel-item relative w-full">
-                    <img src="Images/Hocikes4.jpg" class="w-full  h-[65vh] " />
-                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                        <a href="#slide3" class="btn btn-circle">❮</a>
-                        <a href="#slide1" class="btn btn-circle">❯</a>
-                    </div>
+        <!-- banner slider -->
+        <div class="carousel h-96 w-full">
+            <div id="slide1" class="carousel-item relative w-full">
+                <img src="https://daisyui.com/images/stock/photo-1625726411847-8cbb60cc71e6.jpg" class="w-full" />
+                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide4" class="btn btn-circle">❮</a>
+                    <a href="#slide2" class="btn btn-circle">❯</a>
                 </div>
             </div>
-        </section>
+            <div id="slide2" class="carousel-item relative w-full">
+                <img src="https://daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.jpg" class="w-full" />
+                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide1" class="btn btn-circle">❮</a>
+                    <a href="#slide3" class="btn btn-circle">❯</a>
+                </div>
+            </div>
+            <div id="slide3" class="carousel-item relative w-full">
+                <img src="https://daisyui.com/images/stock/photo-1414694762283-acccc27bca85.jpg" class="w-full" />
+                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide2" class="btn btn-circle">❮</a>
+                    <a href="#slide4" class="btn btn-circle">❯</a>
+                </div>
+            </div>
+            <div id="slide4" class="carousel-item relative w-full">
+                <img src="https://daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.jpg" class="w-full" />
+                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide3" class="btn btn-circle">❮</a>
+                    <a href="#slide1" class="btn btn-circle">❯</a>
+                </div>
+            </div>
+        </div>
 
 
         <!------section part 2-->
-        <section>
+        <section class="">
             <div>
                 <h2 class="text-center text-2xl font-extrabold py-12">Professional Hockeys Club</h2>
                 <p class="text-center py-3">
-                    Professional hockey clubs serve as the pinnacle of the sport, <br> bringing together elite players to compete at the highest level, <br> captivating fans with skillful and intense matchups. 
-                    <br>
+                    Professional hockey clubs serve as the pinnacle of the sport, bringing together elite players to
+                    compete at the highest level,captivating fans with skillful and intense matchups.
+
                     dolor. Purus urna in
                     sit nullam proin.
                 </p>
@@ -118,10 +120,10 @@
         <!----section circle part-->
 
 
-        <section class="grid sm:text-center mr-20">
-         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 mx-auto items-center">
-               <!----card 1---->
-               <div class="card w-96 bg-base-100  ">
+
+        <div class="grid grid-cols-1 lg:grid-cols-4 gap-10 mx-auto justify-center items-center">
+            <!----card 1---->
+            <div class="card w-96 bg-base-100  ">
                 <figure class="px-10 pt-10 ">
                     <div class="radial-progress text-red-500" style="--value:87;" role="progressbar ">87%</div>
                 </figure>
@@ -172,8 +174,8 @@
                     </div>
                 </div>
             </div>
-         </div>
-        </section>
+        </div>
+
 
 
 
@@ -184,10 +186,12 @@
                 <div class="grid grid-cols-1 gap-6 mb-20 lg:grid-cols-2">
                     <!-- --1st card -->
                     <div
-                        class="lg:h-[330px] bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(19,19,24,0.50)),url('./Images/img.png')] bg-no-repeat bg-cover rounded-2xl">
+                        class="h-96 bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(19,19,24,0.50)),url('./Images/img.png')] bg-no-repeat bg-cover rounded-2xl">
                         <div class="pt-24 pb-10 px-10 text-white">
                             <h3 class="text-3xl font-extrabold ">Junior Program</h3>
-                            <p class="text-p-font mt-4 mb-6 text-white lg:w-2/3">Junior programs shape future athletes, <br> offering structured training and fostering passion, <br> skill, and sportsmanship in a supportive environment.
+                            <p class="text-p-font mt-4 mb-6 text-white lg:w-2/3">Junior programs shape future athletes,
+                                <br> offering structured training and fostering passion, <br> skill, and sportsmanship
+                                in a supportive environment.
 
                             </p>
                             <button class="btn text-white bg-[#FF4240] px-5 font-bold text-xl border-none">Register
@@ -195,13 +199,15 @@
 
                         </div>
                     </div>
-                    <!-- second card --> 
+                    <!-- second card -->
 
                     <div
-                        class="lg:h-[330px] bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(19,19,24,0.50)),url('./Images/img2.png')] bg-no-repeat bg-cover rounded-2xl">
+                        class="h-96 bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(19,19,24,0.50)),url('./Images/img2.png')] bg-no-repeat bg-cover rounded-2xl">
                         <div class="pt-24 pb-10 px-10  text-white">
                             <h3 class="text-3xl font-extrabold">Teenager Program</h3>
-                            <p class="text-p-font mt-4 mb-6  text-white lg:w-2/3">Teenager programs focus on specialized training and  <br>mentorship, guiding young athletes to develop skills <br> and discipline for success in competitive pursuits.
+                            <p class="text-p-font mt-4 mb-6  text-white lg:w-2/3">Teenager programs focus on specialized
+                                training and <br>mentorship, guiding young athletes to develop skills <br> and
+                                discipline for success in competitive pursuits.
 
                             </p>
                             <button class="btn text-white bg-[#FF4240] px-5 font-bold text-xl border-none">Register
@@ -213,7 +219,9 @@
                         class="lg:col-span-2 lg:h[450px] bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(19,19,24,0.50)),url('./Images/img3.png')] bg-no-repeat bg-cover rounded-2xl">
                         <div class="pt-24 lg:pt-52 pb-10 px-10  text-white">
                             <h3 class="text-3xl font-extrabold">Professional Program</h3>
-                            <p class="text-p-font font-medium mt-2 mb-6 text-white  lg:w-1/3 ">Professional programs offer elite-level training <br> and resources, shaping athletes for top-tier competition and career <br> success in their respective fields. 
+                            <p class="text-p-font font-medium mt-2 mb-6 text-white  lg:w-1/3 ">Professional programs
+                                offer elite-level training <br> and resources, shaping athletes for top-tier competition
+                                and career <br> success in their respective fields.
                             </p>
                             <button class="btn text-white bg-[#FF4240] px-5 font-bold text-xl border-none">Register
                                 Now!</button>
@@ -227,198 +235,195 @@
 
 
 
-        <!------section part 4-->
-      <!------section part 4-->
-    <section>
-        <div>
-            <h2 class="text-center font-extrabold text-2xl py-4">Our New Products</h2>
-            <p class="text-center py-4">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat
-                <br> dolor. Purus urna in sit nullam proin.
-            </p>
-        </div>
-        
 
-        <!-----sectin image card part 2-->
-        <div class="flex justify-between py-2">
-          <div>
-              <!----card image 1-->
-              <div class="card card-side mb-5 bg-base-100 shadow-xl">
-                <figure><img src="Images/5.png" alt="Movie"/></figure>
-                <div class="card-body">
-                    <div class="flex  gap-2">
-                        <div class="flex">
-                            <img src="Images/Ratul3.png" alt="">
-                            <p>5.0</p>
-                        </div>
-                        <div class="flex">
-                            <img src="Images/Frame (1).png" alt="">
-                            <p>20</p>
-                        </div>
-                        <div class="flex">
-                            <img src="Images/Ratul1.png" alt="">
-                            <p>200</p>
-                        </div>
-                    </div>
-                  <h2 class="card-title">World Cup Flags Football</h2>
-                  <p>Dolor sit amet consectetur. Ut urna diam quis sagittis.</p>
-                  
-                 <div class="flex">
-                    <p class="text-red-500 ">Price - $22.00</p>
-                    <p>Delivery Fee : Free</p>
-                 </div>
-              </div>
-        </div>
-            <!----card image 2-->
-            <div class="card card-side mb-5 bg-base-100 shadow-xl">
-                <figure><img src="Images/7.png" alt="Movie"/></figure>
-                <div class="card-body">
-                    <div class="flex gap-2">
-                        <div class="flex">
-                            <img src="Images/Ratul3.png" alt="">
-                            <p>5.0</p>
-                        </div>
-                        <div class="flex">
-                            <img src="Images/Frame (1).png" alt="">
-                            <p>20</p>
-                        </div>
-                        <div class="flex">
-                            <img src="Images/Ratul1.png" alt="">
-                            <p>200</p>
-                        </div>
-                    </div>
-                  <h2 class="card-title">World Cup Flags Football</h2>
-                  <p>Dolor sit amet consectetur. Ut urna diam quis sagittis.</p>
-                  
-                 <div class="flex">
-                    <p class="text-red-500 ">Price - $22.00</p>
-                    <p>Delivery Fee : Free</p>
-                 </div>
-              </div>
-        </div>
-            <!----card image 3-->
-            <div class="card card-side mb-5 bg-base-100 shadow-xl">
-                <figure><img src="Images/9.png" alt="Movie"/></figure>
-                <div class="card-body">
-                    <div class="flex gap-2">
-                        <div class="flex">
-                            <img src="Images/Ratul3.png" alt="">
-                            <p>5.0</p>
-                        </div>
-                        <div class="flex">
-                            <img src="Images/Frame (1).png" alt="">
-                            <p>20</p>
-                        </div>
-                        <div class="flex">
-                            <img src="Images/Ratul1.png" alt="">
-                            <p>200</p>
-                        </div>
-                    </div>
-                  <h2 class="card-title">World Cup Flags Football</h2>
-                  <p>Dolor sit amet consectetur. Ut urna diam quis sagittis.</p>
-                  
-                 <div class="flex">
-                    <p class="text-red-500 ">Price - $22.00</p>
-                    <p>Delivery Fee : Free</p>
-                 </div>
-              </div>
-        </div>
-        
-          </div>
-          <div>
+        <!------section part 4-->
+        <section>
             <div>
+                <h2 class="text-center font-extrabold text-2xl py-4">Our New Products</h2>
+                <p class="text-center py-4">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis
+                    placerat
+                    <br> dolor. Purus urna in sit nullam proin.
+                </p>
+            </div>
+
+
+            <!-----sectin image card part 2-->
+        <div class="grid grid-cols-1 lg:grid-cols-2 lg:gap-10 gap-4">
+
+                <!----card image 1-->
+                <div class="card card-side mb-5 bg-base-100 shadow-xl">
+                    <figure><img src="Images/5.png" alt="Movie" /></figure>
+                    <div class="card-body">
+                        <div class="flex  gap-2">
+                            <div class="flex">
+                                <img src="Images/Ratul3.png" alt="">
+                                <p>5.0</p>
+                            </div>
+                            <div class="flex">
+                                <img src="Images/Frame (1).png" alt="">
+                                <p>20</p>
+                            </div>
+                            <div class="flex">
+                                <img src="Images/Ratul1.png" alt="">
+                                <p>200</p>
+                            </div>
+                        </div>
+                        <h2 class="card-title">World Cup Flags Football</h2>
+                        <p>Dolor sit amet consectetur. Ut urna diam quis sagittis.</p>
+
+                        <div class="flex">
+                            <p class="text-red-500 ">Price - $22.00</p>
+                            <p>Delivery Fee : Free</p>
+                        </div>
+                    </div>
+                </div>
+                <!----card image 2-->
+                <div class="card card-side mb-5 bg-base-100 shadow-xl">
+                    <figure><img src="Images/7.png" alt="Movie" /></figure>
+                    <div class="card-body">
+                        <div class="flex gap-2">
+                            <div class="flex">
+                                <img src="Images/Ratul3.png" alt="">
+                                <p>5.0</p>
+                            </div>
+                            <div class="flex">
+                                <img src="Images/Frame (1).png" alt="">
+                                <p>20</p>
+                            </div>
+                            <div class="flex">
+                                <img src="Images/Ratul1.png" alt="">
+                                <p>200</p>
+                            </div>
+                        </div>
+                        <h2 class="card-title">World Cup Flags Football</h2>
+                        <p>Dolor sit amet consectetur. Ut urna diam quis sagittis.</p>
+
+                        <div class="flex">
+                            <p class="text-red-500 ">Price - $22.00</p>
+                            <p>Delivery Fee : Free</p>
+                        </div>
+                    </div>
+                </div>
+                <!----card image 3-->
+                <div class="card card-side mb-5 bg-base-100 shadow-xl">
+                    <figure><img src="Images/9.png" alt="Movie" /></figure>
+                    <div class="card-body">
+                        <div class="flex gap-2">
+                            <div class="flex">
+                                <img src="Images/Ratul3.png" alt="">
+                                <p>5.0</p>
+                            </div>
+                            <div class="flex">
+                                <img src="Images/Frame (1).png" alt="">
+                                <p>20</p>
+                            </div>
+                            <div class="flex">
+                                <img src="Images/Ratul1.png" alt="">
+                                <p>200</p>
+                            </div>
+                        </div>
+                        <h2 class="card-title">World Cup Flags Football</h2>
+                        <p>Dolor sit amet consectetur. Ut urna diam quis sagittis.</p>
+
+                        <div class="flex">
+                            <p class="text-red-500 ">Price - $22.00</p>
+                            <p>Delivery Fee : Free</p>
+                        </div>
+                    </div>
+                </div>
+
                 <!----card image 4-->
                 <div class="card card-side mb-5 bg-base-100 shadow-xl">
-                  <figure><img src="Images/6.png" alt="Movie"/></figure>
-                  <div class="card-body">
-                      <div class="flex gap-2">
-                          <div class="flex">
-                              <img src="Images/Ratul3.png" alt="">
-                              <p>5.0</p>
-                          </div>
-                          <div class="flex">
-                              <img src="Images/Frame (1).png" alt="">
-                              <p>20</p>
-                          </div>
-                          <div class="flex">
-                              <img src="Images/Ratul1.png" alt="">
-                              <p>200</p>
-                          </div>
-                      </div>
-                    <h2 class="card-title">World Cup Flags Football</h2>
-                    <p>Dolor sit amet consectetur. Ut urna diam quis sagittis.</p>
-                    
-                   <div class="flex">
-                      <p class="text-red-500 ">Price - $22.00</p>
-                      <p>Delivery Fee : Free</p>
-                   </div>
+                    <figure><img src="Images/6.png" alt="Movie" /></figure>
+                    <div class="card-body">
+                        <div class="flex gap-2">
+                            <div class="flex">
+                                <img src="Images/Ratul3.png" alt="">
+                                <p>5.0</p>
+                            </div>
+                            <div class="flex">
+                                <img src="Images/Frame (1).png" alt="">
+                                <p>20</p>
+                            </div>
+                            <div class="flex">
+                                <img src="Images/Ratul1.png" alt="">
+                                <p>200</p>
+                            </div>
+                        </div>
+                        <h2 class="card-title">World Cup Flags Football</h2>
+                        <p>Dolor sit amet consectetur. Ut urna diam quis sagittis.</p>
+
+                        <div class="flex">
+                            <p class="text-red-500 ">Price - $22.00</p>
+                            <p>Delivery Fee : Free</p>
+                        </div>
+                    </div>
                 </div>
-          </div>
-              <!----card image 5-->
-              <div class="card card-side mb-5 bg-base-100 shadow-xl">
-                  <figure><img src="Images/8.png" alt="Movie"/></figure>
-                  <div class="card-body">
-                      <div class="flex gap-2">
-                          <div class="flex">
-                              <img src="Images/Ratul3.png" alt="">
-                              <p>5.0</p>
-                          </div>
-                          <div class="flex">
-                              <img src="Images/Frame (1).png" alt="">
-                              <p>20</p>
-                          </div>
-                          <div class="flex">
-                              <img src="Images/Ratul1.png" alt="">
-                              <p>200</p>
-                          </div>
-                      </div>
-                    <h2 class="card-title">World Cup Flags Football</h2>
-                    <p>Dolor sit amet consectetur. Ut urna diam quis sagittis.</p>
-                    
-                   <div class="flex">
-                      <p class="text-red-500 ">Price - $22.00</p>
-                      <p>Delivery Fee : Free</p>
-                   </div>
+                <!----card image 5-->
+                <div class="card card-side mb-5 bg-base-100 shadow-xl">
+                    <figure><img src="Images/8.png" alt="Movie" /></figure>
+                    <div class="card-body">
+                        <div class="flex gap-2">
+                            <div class="flex">
+                                <img src="Images/Ratul3.png" alt="">
+                                <p>5.0</p>
+                            </div>
+                            <div class="flex">
+                                <img src="Images/Frame (1).png" alt="">
+                                <p>20</p>
+                            </div>
+                            <div class="flex">
+                                <img src="Images/Ratul1.png" alt="">
+                                <p>200</p>
+                            </div>
+                        </div>
+                        <h2 class="card-title">World Cup Flags Football</h2>
+                        <p>Dolor sit amet consectetur. Ut urna diam quis sagittis.</p>
+
+                        <div class="flex">
+                            <p class="text-red-500 ">Price - $22.00</p>
+                            <p>Delivery Fee : Free</p>
+                        </div>
+                    </div>
                 </div>
-          </div>
-              <!----card image 6-->
-              <div class="card card-side bg-base-100 shadow-xl">
-                  <figure><img src="Images/10.png" alt="Movie"/></figure>
-                  <div class="card-body">
-                      <div class="flex gap-2">
-                          <div class="flex">
-                              <img src="Images/Ratul3.png" alt="">
-                              <p>5.0</p>
-                          </div>
-                          <div class="flex">
-                              <img src="Images/Frame (1).png" alt="">
-                              <p>20</p>
-                          </div>
-                          <div class="flex">
-                              <img src="Images/Ratul1.png" alt="">
-                              <p>200</p>
-                          </div>
-                      </div>
-                    <h2 class="card-title">World Cup Flags Football</h2>
-                    <p>Dolor sit amet consectetur. Ut urna diam quis sagittis.</p>
-                    
-                   <div class="flex">
-                      <p class="text-red-500 ">Price - $22.00</p>
-                      <p>Delivery Fee : Free</p>
-                   </div>
+                <!----card image 6-->
+                <div class="card card-side bg-base-100 shadow-xl">
+                    <figure><img src="Images/10.png" alt="Movie" /></figure>
+                    <div class="card-body">
+                        <div class="flex gap-2">
+                            <div class="flex">
+                                <img src="Images/Ratul3.png" alt="">
+                                <p>5.0</p>
+                            </div>
+                            <div class="flex">
+                                <img src="Images/Frame (1).png" alt="">
+                                <p>20</p>
+                            </div>
+                            <div class="flex">
+                                <img src="Images/Ratul1.png" alt="">
+                                <p>200</p>
+                            </div>
+                        </div>
+                        <h2 class="card-title">World Cup Flags Football</h2>
+                        <p>Dolor sit amet consectetur. Ut urna diam quis sagittis.</p>
+
+                        <div class="flex">
+                            <p class="text-red-500 ">Price - $22.00</p>
+                            <p>Delivery Fee : Free</p>
+                        </div>
+                    </div>
                 </div>
-          </div>
-          
-            </div>
-          </div>
-    </div>
-    </section>
+        </div>        
+
+        </section>
 
 
         <!----section part 4-->
-        <section>
+        <section >
             <div>
-                <h2 class="text-center text-2xl mt-10 py-4 font-extrabold">Clients Question</h2>
-                <p class="text-center mb-16 mt-4">Certainly, I'm here to help! Please provide <br> the client's question, and I'll offer a concise <br> four-line response tailored to their inquiry.
+                <h2 class="text-center lg:text-3xl text-2xl mt-10 py-4 font-extrabold">Clients Question</h2>
+                <p class="text-center mb-16 mt-4">Certainly, I'm here to help! Please provide  the client's
+                    question, and I'll offer a concise  four-line response tailored to their inquiry.
 
 
 
@@ -440,7 +445,10 @@
                                     Our Equipment
                                 </div>
                                 <div class="collapse-content">
-                                    <p>I'm sorry for any confusion, but it seems like your request is incomplete. Could you please specify what information or details you're looking for regarding "Our Equipment" so that I can provide you with a concise and informative five-line response?
+                                    <p>I'm sorry for any confusion, but it seems like your request is incomplete. Could
+                                        you please specify what information or details you're looking for regarding "Our
+                                        Equipment" so that I can provide you with a concise and informative five-line
+                                        response?
 
                                     </p>
                                 </div>
@@ -451,7 +459,13 @@
                                     Hockey Training
                                 </div>
                                 <div class="collapse-content">
-                                    <p>Hockey training focuses on enhancing players' skills, agility, and endurance. It incorporates drills for stickhandling, shooting accuracy, and defensive strategies. Off-ice conditioning, including strength and cardio exercises, is crucial for overall performance. Training programs often emphasize teamwork, tactical understanding, and personalized skill development to prepare players for competitive play. Consistent and well-rounded training is key to fostering a player's growth and success in the sport.
+                                    <p>Hockey training focuses on enhancing players' skills, agility, and endurance. It
+                                        incorporates drills for stickhandling, shooting accuracy, and defensive
+                                        strategies. Off-ice conditioning, including strength and cardio exercises, is
+                                        crucial for overall performance. Training programs often emphasize teamwork,
+                                        tactical understanding, and personalized skill development to prepare players
+                                        for competitive play. Consistent and well-rounded training is key to fostering a
+                                        player's growth and success in the sport.
 
 
                                     </p>
@@ -463,7 +477,13 @@
                                     Ski Touring
                                 </div>
                                 <div class="collapse-content">
-                                    <p>Ski touring provides an immersive winter experience, allowing enthusiasts to explore pristine landscapes away from traditional ski resorts. Participants ascend slopes using climbing skins, unlocking access to breathtaking backcountry terrain. Guided by experienced leaders, ski touring offers a blend of adventure, fitness, and appreciation for the natural surroundings. It's a dynamic and fulfilling way to embrace the beauty of winter while enjoying the thrill of descents in untouched snow.
+                                    <p>Ski touring provides an immersive winter experience, allowing enthusiasts to
+                                        explore pristine landscapes away from traditional ski resorts. Participants
+                                        ascend slopes using climbing skins, unlocking access to breathtaking backcountry
+                                        terrain. Guided by experienced leaders, ski touring offers a blend of adventure,
+                                        fitness, and appreciation for the natural surroundings. It's a dynamic and
+                                        fulfilling way to embrace the beauty of winter while enjoying the thrill of
+                                        descents in untouched snow.
                                     </p>
                                 </div>
                             </div>
@@ -473,7 +493,10 @@
                                     Booking
                                 </div>
                                 <div class="collapse-content">
-                                    <p>Booking with us is a seamless process through our user-friendly online platform. Simply select your desired date, time, and service, then follow the easy steps to confirm your reservation. Our efficient booking system ensures a hassle-free experience for our customers.
+                                    <p>Booking with us is a seamless process through our user-friendly online platform.
+                                        Simply select your desired date, time, and service, then follow the easy steps
+                                        to confirm your reservation. Our efficient booking system ensures a hassle-free
+                                        experience for our customers.
 
                                     </p>
                                 </div>
@@ -484,7 +507,13 @@
                                     Pricings
                                 </div>
                                 <div class="collapse-content">
-                                    <p>Our pricing structure is designed to provide flexibility and value for our customers. We offer tiered packages to accommodate different needs and budgets, ensuring that you can choose the plan that aligns with your requirements. Additionally, we provide transparent and competitive pricing with no hidden fees, allowing for clear and straightforward transactions. Feel free to reach out to our customer service for any specific pricing inquiries or customized solutions tailored to your preferences.
+                                    <p>Our pricing structure is designed to provide flexibility and value for our
+                                        customers. We offer tiered packages to accommodate different needs and budgets,
+                                        ensuring that you can choose the plan that aligns with your requirements.
+                                        Additionally, we provide transparent and competitive pricing with no hidden
+                                        fees, allowing for clear and straightforward transactions. Feel free to reach
+                                        out to our customer service for any specific pricing inquiries or customized
+                                        solutions tailored to your preferences.
 
                                     </p>
                                 </div>
@@ -498,14 +527,15 @@
 
 
         <!-----section input part5-->
-        <section class="my-32">
-            <div class="container mx-auto lg:px-24 px-8">
-                <h2 class="text-2xl text-center font-bold mt-4 mb-4">Get In Touch</h2>
-                <p class="text-center ">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat
-                    <br> dolor. Purus urna in sit nullam proin.
-                </p>
-                <div class="mt-12 grid grid-cols-1 gap-20 lg:grid-cols-3">
-                    <div class="">
+        <section class="lg:my-32 my-10">
+           
+            
+            
+                <div class="grid grid-cols-1 lg:grid-cols-2 lg:gap-10 lg:mt-10 items-center space-y-6">
+
+                
+                <!-- card -->
+            <div class="lg:p-6 border-2 border-opacity-60 border-slate-500 rounded-2xl">
                         <div class="bg-[#BCED6D] mb-5 bg-opacity-10 p-5 ">
                             <img src="Images/Group1.png" alt="">
                             <p class="text-p-font">Phone Number</p>
@@ -525,49 +555,59 @@
 
 
 
-                    </div>
-                    <div class="lg:col-span-2">
-                        <div class="grid gap-3 lg:grid-cols-2 ">
+             </div>
 
-                        </div>
-                        <div class="grid gap-6 grid-cols-1 lg:grid-cols-2">
+               <!-- form -->
+             <div >
+                       
+                        <div class=" grid  lg:gap-6 grid-cols-1 lg:grid-cols-2 ">
+                            <!-- first name -->
                             <div>
                                 <label for="first name">First Name</label>
                                 <input type="text" placeholder="Type here" class="mt-2 input input-bordered w-full" />
                             </div>
+                            <!-- last name -->
                             <div>
                                 <label for="first name">Last Name</label>
                                 <input type="text" placeholder="Type here" class="mt-2 input input-bordered w-full" />
                             </div>
+                            <!-- subject -->
                             <div>
+
                                 <label for="first name">Subject</label>
                                 <input type="text" placeholder="Type here" class="mt-2 input input-bordered w-full" />
                             </div>
+                            <!-- phone number -->
                             <div>
                                 <label for="first name">Phone Number</label>
                                 <input type="text" placeholder="Type here" class="mt-2 input input-bordered w-full" />
                             </div>
                         </div>
+                        <!-- message and button -->
                         <div>
+                            <!-- message -->
                             <div>
                                 <label for="first name">Message</label>
-                                <textarea class="w-full mt-2 textarea textarea-bordered rows:10"
+                                <textarea class="w-full h-24 mt-2 textarea textarea-bordered rows:10"
                                     placeholder="Write your message"></textarea>
                             </div>
-                            <button class="btn w-full bg-red-500 text-white">Send Message</button>
+                            <button class="btn w-full bg-red-500 text-white lg:mt-10">Send Message</button>
                         </div>
-                    </div>
+              </div>
 
-                </div>
             </div>
+
+                
+            
 
         </section>
 
 
-        <section>
+        <section class="hidden">
 
             <div class="py-4">
-                <div class="footer footer-center p-10 bg-base-200 bg-[#131318] bg-opacity-20  py-4 px-4 rounded-x text-base-content rounded">
+                <div
+                    class="footer footer-center p-10 bg-base-200 bg-[#131318] bg-opacity-20  py-4 px-4 rounded-x text-base-content rounded">
                     <div>
                         <h2 class="-mb-8 text-xl font-extrabold">
                             Social Media
@@ -595,10 +635,10 @@
                                 </svg></a>
                         </div>
                     </nav>
-    
+
                 </div>
             </div>
-    
+
         </section>
     </main>
 
@@ -606,29 +646,27 @@
 
 
     <!-------footer part---->
-  
-    <footer class="footer p-10 bg-base-200  text-white bg-black text-base-content">
-        <aside>
 
-            <h2 class="text-3xl">Get In Touch</h2>
-            <p>Feel free to reach out and connect. Your questions and <br> conversations are always welcome!
+    <!-- footer for computer -->
 
+    <section class="hidden lg:flex">
 
+    
 
-
-
-
-            </p>
-            <div class="flex gap-2">
+    <footer class="footer p-10  text-white bg-black text-base-content ">
+        <nav>
+            <h2 class="lg:text-3xl text-2xl">Get In Touch</h2>
+            <p>Feel free to reach out and connect. Your questions and <br> conversations are always welcome!</p>
+            <div class="flex gap-1">
                 <img src="./Images/br.png" alt="">
                 <p>hockeys@support.com</p>
             </div>
-            <div class="flex gap-2">
+            <div class="flex gap-1">
                 <img src="./Images/NR.png" alt="">
                 <p>(+62) 123-321-543</p>
             </div>
-
-        </aside>
+          
+        </nav> 
         <nav>
             <header class="footer-title mb-2">Company</header>
             <a class="link link-hover">About us</a>
@@ -653,8 +691,58 @@
             <a class="link link-hover">Hockeys for kids</a>
             <a class="link link-hover">Hockeys for Adult</a>
         </nav>
-    </footer>
+      </footer>
 
+    </section>
+
+    <!-- footer for mobile -->
+
+    <section class="flex lg:hidden">
+
+   
+    <footer class="footer footer-center p-10 bg-black text-primary-content">
+        <aside>
+            <h2 class="lg:text-3xl text-2xl">Get In Touch</h2>
+            <p>Feel free to reach out and connect. Your questions and <br> conversations are always welcome!</p>
+            <div class="flex gap-1">
+                <img src="./Images/br.png" alt="">
+                <p>hockeys@support.com</p>
+            </div>
+            <div class="flex gap-1">
+                <img src="./Images/NR.png" alt="">
+                <p>(+62) 123-321-543</p>
+         
+        </aside> 
+        <div class="flex gap-10">
+            <nav>
+                <header class="footer-title mb-2">Company</header>
+                <a class="link link-hover">About us</a>
+                <a class="link link-hover">Leadership</a>
+                <a class="link link-hover">Careers</a>
+                <a class="link link-hover">News & Article</a>
+                <a class="link link-hover">Legal Notice</a>
+            </nav>
+    
+    
+            <nav>
+                <header class="footer-title">Support</header>
+                <a class="link link-hover">Help Center</a>
+                <a class="link link-hover">FAQ</a>
+                <a class="link link-hover"> Ticket Support</a>
+                <a class="link link-hover">Contact Us</a>
+            </nav>
+
+        </div>
+        <nav>
+            <header class="footer-title">Services</header>
+            <a class="link link-hover">Academy</a>
+            <a class="link link-hover">Private Lesson</a>
+            <a class="link link-hover">Hockeys for kids</a>
+            <a class="link link-hover">Hockeys for Adult</a>
+        </nav>
+      </footer>
+
+    </section>
 
 
 </body>
